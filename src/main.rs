@@ -16,7 +16,7 @@ fn main() {
                 continue;
             }
         };
-        println!("你输入的是：{}", aa); 
+        println!("你输入的是：{}", aa);
 
         match aa.cmp(&a) {
             Ordering::Equal => {
